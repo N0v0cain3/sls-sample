@@ -1,0 +1,32 @@
+{
+  "name": "sls-sample",
+  "version": "1.0.0",
+  "description": "serverless boilerplate ",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/N0v0cain3/sls-sample.git"
+  },
+  "author": "Shivam",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/N0v0cain3/sls-sample/issues"
+  },
+  "homepage": "https://github.com/N0v0cain3/sls-sample#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.1.0",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "serverless-bundle": "^3.2.1",
+    "serverless-pseudo-parameters": "^2.5.0",
+    "webpack": "^5.3.2"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.783.0"
+  }
+}

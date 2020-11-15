@@ -1,8 +1,16 @@
 {
   "name": "sls-sample",
   "version": "1.0.0",
-  "description": "sample template for serverless application",
-  "author": "Shivam",
+  "description": "sample template for serverless node application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/N0v0cain3/sls-sample.git"
+  },
+  "author": "shivam",
   "license": "MIT",
   "devDependencies": {
     "babel-core": "^6.25.0",
@@ -16,5 +24,9 @@
   },
   "dependencies": {
     "aws-sdk": "^2.639.0"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/N0v0cain3/sls-sample/issues"
+  },
+  "homepage": "https://github.com/N0v0cain3/sls-sample#readme"
 }
